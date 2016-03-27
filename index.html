@@ -31,10 +31,23 @@
 
 <p>For our project we worked mainly with Musical Instrument Digital Interface (MIDI) files. MIDI files are the technical standard in the industry concerning music as they carry information that specifies pitch, notation, velocity, as well as a plethora of other related data. Our first and arguably most important task to complete was the parsing of the MIDI files themselves. With the given MIDI data, how could we transform it into the sheet music that  we all know and use today. </p>
 
-<p>Our project is mostly coded in Swift, the newest and fastest growing programming language of iOS and OS X. There are certain features however that could only be accomplished in Javascript. One of these is Vexflow,a Javascript library used in parsing and displaying MIDI files. Thus the parsing of the MIDI files was done mostly in Javascript, then embedded into the main Swift code. 
-<img src="http://i.imgur.com/bAFGFNC.png" alt="Our parser parses MIDI data like this..."></p>
+<p>Our project is mostly coded in Swift, the newest and fastest growing programming language of iOS and OS X. There are certain features however that could only be accomplished in Javascript. One of these is Vexflow,a Javascript library used in parsing and displaying MIDI files. Thus the parsing of the MIDI files was done mostly in Javascript, then embedded into the main Swift code.</p>
+
+<p><img src="http://i.imgur.com/bAFGFNC.png" alt="">
+Our Parser Parses MIDI data like this... </p>
 
 <p>Our MIDI files themselves are saved onto a mySQL database and pulled when needed. The pulling of the MIDI files are performed with PHP calls. </p>
+
+<p><img src="http://i.imgur.com/244gpuu.png" alt="">
+PHP Calls used to pull MIDI data from the database</p>
+
+<p>Our database organizes our application and keeps detailed tables that track how elements of the application interact with one another. </p>
+
+<p><img src="http://i.imgur.com/LH9n4lH.png" alt="">
+Our table of songs that are sotred in our database. </p>
+
+<p><img src="http://i.imgur.com/yTK1JnN.png" alt="">
+Relational Schema detailing how the different aspects of our application interact with one another. </p>
 
 <h3>
 <a id="our-app" class="anchor" href="#our-app" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Our App</h3>
